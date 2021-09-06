@@ -1,0 +1,21 @@
+{
+    "name": "lemonpatwari/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lemon Patwari",
+            "email": "lemonpatwari@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "lemonpatwari\\Contact\\": "src/"
+        }
+    }
+}
