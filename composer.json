@@ -11,11 +11,17 @@
     ],
     "minimum-stability": "dev",
     "require": {
-
     },
     "autoload": {
         "psr-4": {
             "lemonpatwari\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lemonpatwari\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
